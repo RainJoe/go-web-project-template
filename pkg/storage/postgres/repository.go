@@ -4,9 +4,9 @@ import (
 	"database/sql"
 	"fmt"
 
-	"github.com/RainJoe/go-template/pkg/adding"
-	"github.com/RainJoe/go-template/pkg/config"
-	"github.com/RainJoe/go-template/pkg/listing"
+	"github.com/RainJoe/go-web-project-template/pkg/adding"
+	"github.com/RainJoe/go-web-project-template/pkg/config"
+	"github.com/RainJoe/go-web-project-template/pkg/listing"
 
 	//pq
 	_ "github.com/lib/pq"

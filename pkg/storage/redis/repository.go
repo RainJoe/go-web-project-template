@@ -3,7 +3,7 @@ package redis
 import (
 	"time"
 
-	"github.com/RainJoe/go-template/pkg/config"
+	"github.com/RainJoe/go-web-project-template/pkg/config"
 	"github.com/gomodule/redigo/redis"
 )
 

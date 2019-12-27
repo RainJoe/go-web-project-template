@@ -4,11 +4,11 @@ import (
 	"flag"
 
 	"github.com/BurntSushi/toml"
-	"github.com/RainJoe/go-template/pkg/adding"
-	"github.com/RainJoe/go-template/pkg/config"
-	"github.com/RainJoe/go-template/pkg/http/rest"
-	"github.com/RainJoe/go-template/pkg/listing"
-	"github.com/RainJoe/go-template/pkg/storage/postgres"
+	"github.com/RainJoe/go-web-project-template/pkg/adding"
+	"github.com/RainJoe/go-web-project-template/pkg/config"
+	"github.com/RainJoe/go-web-project-template/pkg/http/rest"
+	"github.com/RainJoe/go-web-project-template/pkg/listing"
+	"github.com/RainJoe/go-web-project-template/pkg/storage/postgres"
 )
 
 var tomlfile string
