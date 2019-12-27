@@ -1,0 +1,17 @@
+load("@io_bazel_rules_go//go:def.bzl", "go_library")
+
+go_library(
+    name = "go_default_library",
+    srcs = [
+        "repository.go",
+        "user.go",
+    ],
+    importpath = "github.com/RainJoe/go-web-project-template/pkg/storage/postgres",
+    visibility = ["//visibility:public"],
+    deps = [
+        "//pkg/adding:go_default_library",
+        "//pkg/config:go_default_library",
+        "//pkg/listing:go_default_library",
+        "@com_github_lib_pq//:go_default_library",
+    ],
+)
